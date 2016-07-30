@@ -220,7 +220,7 @@
           <argument>
             <kind>1</kind>
             <string>view_visible[0] = false;
-view_visible[3] = true;
+view_visible[2] = true;
 </string>
           </argument>
         </arguments>

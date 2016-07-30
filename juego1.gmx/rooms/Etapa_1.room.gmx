@@ -3,8 +3,8 @@
   <caption></caption>
   <width>3000</width>
   <height>2500</height>
-  <vsnap>10</vsnap>
-  <hsnap>10</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -41,10 +41,10 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_me" xview="800" yview="600" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_me" xview="810" yview="590" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="855" yview="0" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="1690" yview="580" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="900" yview="1200" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="1690" yview="540" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="880" yview="1160" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="600" wview="800" hview="600" xport="0" yport="0" wport="800" hport="600" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -53,34 +53,44 @@
   <instances>
     <instance objName="obj_fondo" x="1210" y="890" name="inst_643C0246" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fondo_aire" x="1210" y="890" name="inst_587A39C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloqueo_transpa" x="530" y="260" name="inst_25F0C961" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloqueo_transpa" x="262" y="282" name="inst_3394AA4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sound_back" x="1120" y="670" name="inst_20469718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_menu1" x="880" y="710" name="inst_FE91E2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_economia_menu1" x="880" y="810" name="inst_56E29C40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_urbano_menu1" x="879" y="710" name="inst_FE91E2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_economia_menu1" x="879" y="811" name="inst_56E29C40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_transporte_menu1" x="880" y="940" name="inst_113C6085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_energia_menu1" x="890" y="1060" name="inst_F4518C5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_energia_menu1" x="879" y="1061" name="inst_F4518C5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volver" x="1470" y="1140" name="inst_BFBC728C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloqueo_transpa" x="790" y="890" name="inst_A868B6F1" locked="0" code="" scaleX="1.07142853736877" scaleY="1.44919788837433" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloqueo_transpa" x="970" y="880" name="inst_72F7B825" locked="0" code="" scaleX="0.785714268684387" scaleY="1.71657752990723" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloqueo_transpa" x="803" y="895" name="inst_A868B6F1" locked="0" code="" scaleX="1.07142853736877" scaleY="1.44919788837433" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloqueo_transpa" x="978" y="881" name="inst_72F7B825" locked="0" code="" scaleX="0.785714268684387" scaleY="1.71657752990723" colour="4294967295" rotation="0"/>
     <instance objName="obj_fondo_aire" x="1205" y="307" name="inst_DAD2B3EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fondo" x="1206" y="313" name="inst_F5564431" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_opt_1" x="960" y="120" name="inst_9F57179C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_opt_2" x="1080" y="120" name="inst_5E2D1D3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_opt_3" x="1200" y="120" name="inst_EB3AD908" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_opt_4" x="1320" y="120" name="inst_3DA93284" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_opt_5" x="1440" y="120" name="inst_9606E338" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_urbano_desc_0" x="1200" y="300" name="inst_3CB021FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fondo_aire" x="2050" y="870" name="inst_BE7192FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fondo" x="2050" y="870" name="inst_561962CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_opt_1" x="960" y="120" name="inst_9F57179C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_opt_2" x="1080" y="120" name="inst_5E2D1D3E" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_opt_3" x="1200" y="120" name="inst_EB3AD908" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_opt_4" x="1320" y="120" name="inst_3DA93284" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_opt_5" x="1440" y="120" name="inst_9606E338" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_urbano_desc_0" x="1198" y="296" name="inst_3CB021FD" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fondo_aire" x="2051" y="832" name="inst_BE7192FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fondo" x="2053" y="837" name="inst_561962CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fondo_aire" x="350" y="880" name="inst_63CCFA00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fondo_aire" x="1240" y="1490" name="inst_AAB11021" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fondo_aire" x="1235" y="1456" name="inst_AAB11021" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fondo" x="350" y="890" name="inst_399BFB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fondo" x="1230" y="1490" name="inst_099223EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fondo" x="1236" y="1462" name="inst_099223EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volver_1" x="1510" y="560" name="inst_6C0131D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volver_1" x="2350" y="1090" name="inst_104133C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_volver_1" x="1540" y="1710" name="inst_386E382C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_volver_1" x="1540" y="1715" name="inst_386E382C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volver_1" x="660" y="1130" name="inst_FA44730F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_desc_0" x="1228" y="1449" name="inst_5C13B8D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_opt_1" x="990" y="1260" name="inst_9CCAE89C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_opt_2" x="1110" y="1260" name="inst_3EFBBCCD" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_opt_3" x="1230" y="1260" name="inst_922DE1B6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_opt_4" x="1350" y="1260" name="inst_62A471D2" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="E1_obj_economia_opt_5" x="1470" y="1260" name="inst_DB591471" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_opt_1" x="1800" y="640" name="inst_1FAC93D5" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_opt_2" x="1920" y="640" name="inst_2ECC1348" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_opt_3" x="2040" y="640" name="inst_4C1088B9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_opt_4" x="2160" y="640" name="inst_0CD032F2" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_opt_5" x="2280" y="640" name="inst_357A0510" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="T1_obj_transporte_desc_0" x="2045" y="820" name="inst_6151B099" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
