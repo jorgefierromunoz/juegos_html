@@ -101,6 +101,7 @@
     <sound>sound\snd_urbano</sound>
     <sound>sound\snd_energia</sound>
     <sound>sound\snd_economia</sound>
+    <sound>sound\snd_boton</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_urbano11</sprite>
@@ -140,11 +141,19 @@
     </sprites>
     <sprite>sprites\spr_fondo_opt</sprite>
     <sprites name="spr_etapa_1">
-      <sprite>sprites\spr_1_urbano_opt1</sprite>
-      <sprite>sprites\spr_1_urbano_opt2</sprite>
-      <sprite>sprites\spr_1_urbano_opt3</sprite>
-      <sprite>sprites\spr_1_urbano_opt4</sprite>
-      <sprite>sprites\spr_1_urbano_opt5</sprite>
+      <sprites name="desarrollo_urbano">
+        <sprite>sprites\spr_1_urbano_opt1</sprite>
+        <sprite>sprites\spr_1_urbano_opt2</sprite>
+        <sprite>sprites\spr_1_urbano_opt3</sprite>
+        <sprite>sprites\spr_1_urbano_opt4</sprite>
+        <sprite>sprites\spr_1_urbano_opt5</sprite>
+        <sprite>sprites\spr_1_urbano_desc1</sprite>
+        <sprite>sprites\spr_1_urbano_desc2</sprite>
+        <sprite>sprites\spr_1_urbano_desc3</sprite>
+        <sprite>sprites\spr_1_urbano_desc4</sprite>
+        <sprite>sprites\spr_1_urbano_desc5</sprite>
+        <sprite>sprites\spr_1_urbano_desc0</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -182,8 +191,9 @@
       <object>objects\obj_urbano_opt_3</object>
       <object>objects\obj_urbano_opt_4</object>
       <object>objects\obj_urbano_opt_5</object>
-      <object>objects\obj_urbano_msg_central</object>
+      <object>objects\obj_urbano_desc_0</object>
     </objects>
+    <object>objects\obj_volver_1</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\movimiento</timeline>
