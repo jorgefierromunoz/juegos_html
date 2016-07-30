@@ -160,9 +160,7 @@
     <background>background\fondo_menu</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\optoculta.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\font_app</font>
   </fonts>
@@ -194,6 +192,7 @@
       <object>objects\obj_urbano_desc_0</object>
     </objects>
     <object>objects\obj_volver_1</object>
+    <object>objects\obj_me</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\movimiento</timeline>
