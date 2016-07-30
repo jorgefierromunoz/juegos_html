@@ -3,7 +3,7 @@
   <spriteName>spr_boton_comenzar</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>2</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -109,7 +109,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>periodo2017_2021</room>
+            <room>Etapa_1</room>
           </argument>
         </arguments>
       </action>

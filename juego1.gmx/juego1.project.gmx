@@ -3,6 +3,97 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="5" name="datafiles">
+    <datafiles number="5" name="Etapa_1">
+      <datafiles number="5" name="desarrollo_urbano">
+        <datafile>
+          <name>urbano_1_opt1.png</name>
+          <exists>-1</exists>
+          <size>808</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>urbano_1_opt1.png</filename>
+        </datafile>
+        <datafile>
+          <name>urbano_1_opt2.png</name>
+          <exists>-1</exists>
+          <size>861</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>urbano_1_opt2.png</filename>
+        </datafile>
+        <datafile>
+          <name>urbano_1_opt3.png</name>
+          <exists>-1</exists>
+          <size>864</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>urbano_1_opt3.png</filename>
+        </datafile>
+        <datafile>
+          <name>urbano_1_opt4.png</name>
+          <exists>-1</exists>
+          <size>888</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>urbano_1_opt4.png</filename>
+        </datafile>
+        <datafile>
+          <name>urbano_1_opt5.png</name>
+          <exists>-1</exists>
+          <size>883</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>urbano_1_opt5.png</filename>
+        </datafile>
+      </datafiles>
+    </datafiles>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\musica_fondo</sound>
@@ -12,10 +103,6 @@
     <sound>sound\snd_economia</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_desarrollo</sprite>
-    <sprite>sprites\spr_economia</sprite>
-    <sprite>sprites\spr_transporte</sprite>
-    <sprite>sprites\spr_energia</sprite>
     <sprite>sprites\spr_urbano11</sprite>
     <sprite>sprites\spr_urbano12</sprite>
     <sprite>sprites\spr_urbano13</sprite>
@@ -41,11 +128,35 @@
     </sprites>
     <sprite>sprites\spr_transparente</sprite>
     <sprite>sprites\spr_fondo_aire</sprite>
+    <sprites name="spr_boton_tema">
+      <sprite>sprites\spr_transporte</sprite>
+      <sprite>sprites\spr_transporte_hover</sprite>
+      <sprite>sprites\spr_economia</sprite>
+      <sprite>sprites\spr_economia_hover</sprite>
+      <sprite>sprites\spr_desarrollo</sprite>
+      <sprite>sprites\spr_desarrollo_hover</sprite>
+      <sprite>sprites\spr_energia</sprite>
+      <sprite>sprites\spr_energia_hover</sprite>
+    </sprites>
+    <sprite>sprites\spr_fondo_opt</sprite>
+    <sprites name="spr_etapa_1">
+      <sprite>sprites\spr_1_urbano_opt1</sprite>
+      <sprite>sprites\spr_1_urbano_opt2</sprite>
+      <sprite>sprites\spr_1_urbano_opt3</sprite>
+      <sprite>sprites\spr_1_urbano_opt4</sprite>
+      <sprite>sprites\spr_1_urbano_opt5</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\fondo_menu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\optoculta.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_app</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_comenzar</object>
     <object>objects\obj_instrucciones</object>
@@ -55,7 +166,6 @@
     <object>objects\obj_transporte_menu1</object>
     <object>objects\obj_energia_menu1</object>
     <object>objects\obj_volver</object>
-    <object>objects\object14</object>
     <object>objects\obj_carta1</object>
     <object>objects\obj_carta2</object>
     <object>objects\obj_carta3</object>
@@ -66,6 +176,14 @@
     <object>objects\obj_bloqueo_transpa</object>
     <object>objects\obj_fondo_aire</object>
     <object>objects\obj_sound_back</object>
+    <objects name="opt_etapa_1">
+      <object>objects\obj_urbano_opt_1</object>
+      <object>objects\obj_urbano_opt_2</object>
+      <object>objects\obj_urbano_opt_3</object>
+      <object>objects\obj_urbano_opt_4</object>
+      <object>objects\obj_urbano_opt_5</object>
+      <object>objects\obj_urbano_msg_central</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\movimiento</timeline>
@@ -73,11 +191,13 @@
     <timeline>timelines\mover_izquierda</timeline>
     <timeline>timelines\minimizar</timeline>
     <timeline>timelines\timeline4</timeline>
+    <timeline>timelines\timeline5</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\menu</room>
     <room>rooms\instrucciones</room>
-    <room>rooms\periodo2017_2021</room>
+    <room>rooms\Etapa_1</room>
+    <room>rooms\periodo2017_2021_vold</room>
     <room>rooms\periodo1_resultados</room>
     <room>rooms\periodo2021_2025</room>
     <room>rooms\periodo2_resultados</room>
